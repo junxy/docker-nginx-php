@@ -41,4 +41,6 @@ RUN chmod +x        /etc/service/phpfpm/run
 EXPOSE 80
 # End Nginx-PHP
 
+# test
+
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
